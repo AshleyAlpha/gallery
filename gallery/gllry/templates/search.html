@@ -15,9 +15,9 @@
 
         {% if images %}
         {% for imag in images %}
-        <div class="col-sm-6 col-md-3">
-            <img src="{{imag.image.url}}" alt="Image">
-        </div>
+
+        <img src="{{imag.image.url}}" alt="Image">
+
         {% endfor %}
         {% endif %}
     </div>
