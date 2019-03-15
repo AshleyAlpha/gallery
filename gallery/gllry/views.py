@@ -8,7 +8,7 @@ def welcome(request):
 
 def index(request):
     title = 'Home'
-    images = Image.get_all_images()
+    images = Image.objects.all()
     locations = Location.objects.all()
     return render(request, 'index.html', {'title':title, 'images':images, 'locations':locations})
 
