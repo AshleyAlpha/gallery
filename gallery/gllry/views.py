@@ -15,14 +15,14 @@ def index(request):
 def search(request):
     locations = Location.objects.all()
     if 'category' in request.GET and request.GET['category']:
-        search_term = request.GET.get('category')
-        images_found = Image.search_image(search_term)
-        message = f'{search_term}'
+        search_category = request.GET.get('category')
+        images = Image.search_image(search_category)
+        message = f'{search_category}'
 
-        return render(request, 'search.html',{'message':message, 'images':images_found, 'locations':locations})
+        return render(request, 'search.html',{'message':message, 'images':images, 'locations':locations})
     else:
         message = "You have not searched for any term"
-        return render(request, 'search.html',{'message':message, 'locations':locations})
+        return render(request, 'search.html',{'message':message,'locations':locations})
 
 def sing_image(request, category_name, image_id):
     locations = Location.objects.all()

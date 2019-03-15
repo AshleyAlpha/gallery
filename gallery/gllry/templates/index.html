@@ -5,13 +5,14 @@
 <body>
 
     <div class="container">
+        <h1> Welcome to my best nature pictures Gallery!</h1>
 
 
         {% for img in images %}
 
 
         <a data-toggle="modal" data-target="#{{img.id}}">
-            <img src="{{img.image.cdn_url}}" alt="Image">
+            <img src="{{img.image.url}}" alt="Image">
         </a>
 
         <div id="{{img.id}}" class="modal fade" class='zoom' role="dialog"
@@ -26,7 +27,7 @@
                         <h3 class="modal-title"><strong>{{img.title}}</strong></h3>
                     </div>
                     <div class="modal-body">
-                        <img src="{{img.image.cdn_url}}" alt="Image" width='400' length='500'>
+                        <img src="{{img.image.url}}" alt="Image" width='400' length='500'>
                         <p><strong>{{img.description}}</strong></p><br>
                         <h5><strong>captured from: </strong>{{img.location.photo_location}}</h5>
                     </div>
