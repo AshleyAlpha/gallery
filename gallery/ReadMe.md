@@ -45,7 +45,7 @@ python3.6 manage.py migrate
 * Open terminal on localhost:8000
 
 ## Known bugs
-* gettibg image by filter id
+* getting image by filter id
 * search image by its location
 
 ## Technologies used
