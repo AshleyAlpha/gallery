@@ -61,5 +61,5 @@ python3.6 manage.py migrate
 Contact me on mashleyalpha@gmail.com for any feedback
 
 ## License
-
+MIT copyright (c) 2019 **Alpha Mbabazi*
 
