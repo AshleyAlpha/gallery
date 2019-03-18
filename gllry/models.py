@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Locations(models.Model):
+class Location(models.Model):
     photo_location = models.CharField(max_length=50)
 
     def save_location(self):
