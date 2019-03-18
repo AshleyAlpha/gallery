@@ -16,11 +16,11 @@ img:hover{
 } 
 .clmn{
   float: right;
-  width: 34.33%;
+  width: 33.33%;
   padding: 5px;
 }
 #row::before{
   content: "";
-  clear: both;
+  clear: b;
   display: table-column-group;
 }
