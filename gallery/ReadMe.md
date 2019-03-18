@@ -28,11 +28,11 @@ Install dependancies that will create an environment for the app to run pip3 ins
 # .env file
 Create .env file and paste paste the following filling where appropriate:
 
-SECRET_KEY = '<Secret_key>'
-DBNAME = 'gallery'
-USER = '<Username>'
-PASSWORD = '<password>'
-DEBUG = True
+* SECRET_KEY = '<Secret_key>'
+* DBNAME = 'gallery'
+* USER = '<Username>'
+* PASSWORD = '<password>'
+* DEBUG = True
 
 # Run initial Migration
 
@@ -61,4 +61,4 @@ python3.6 manage.py migrate
 Contact me on mashleyalpha@gmail.com for any feedback
 
 ## License
-MIT Copyright (c) 2019 *Alpha Mbabazi*
+MIT Copyright (c) 2019 **Alpha Mbabazi**
