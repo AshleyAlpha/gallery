@@ -3,8 +3,6 @@ from django.http  import HttpResponse,Http404
 from .models import Image, Location, Category
 # Create your views here.
 
-def welcome(request):
-    return render(request, 'Welcome.html')
 
 def index(request):
     title = 'Home'
@@ -17,7 +15,7 @@ def search(request):
     if 'category' in request.GET and request.GET['category']:
         search_category = request.GET.get('category')
         images = Image.search_image(search_category)
-        message = f'{search_category}
+        message = f'{search_category}'
 
         return render(request, 'search.html',{'message':message, 'images':images, 'locations':locations})
     else:
