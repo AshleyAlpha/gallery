@@ -62,4 +62,4 @@ Contact me on mashleyalpha@gmail.com for any feedback
 
 ## License
 
-MIT Copyright (c) 2019 **Alpha Mbabazi**
+
