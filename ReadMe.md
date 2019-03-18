@@ -45,7 +45,7 @@ python3.6 manage.py migrate
 * Open terminal on localhost:8000
 
 ## Known bugs
-* search image by its location
+
 
 ## Technologies used
 
