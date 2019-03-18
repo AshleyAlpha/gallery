@@ -30,3 +30,9 @@ def sing_image(request, category_name, image_id):
     image_category = Image.objects.filter(category__photo_category = category_name)
     title = f'{category_name}'
     return render(request, 'location.html', {'title':title, 'images':images, 'locations':locations})
+
+def location_filter(request, location):
+    locations = Location.objects.all()
+    images = Image.filter_by_location(location)
+    title = f'{location} Photos'
+    return render(request, 'location.html', {'title':title, 'images':images, 'locations':locations})
