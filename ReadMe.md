@@ -2,7 +2,7 @@
 ## Author: Alpha Mbabazi
 ## Description
 
-GALLERY PIC is a simple photo gallery web application that shows beautiful pictures and designs. Users will be able to view photos updated by the admin. Users can see photos based on their categories, by clicking on the listed locations in the menu. They can also copy the link to a photo to paste at their discretion. The search functionality will search photos based on the categories.
+GALLERY PIC is a simple photo gallery web application that shows beautiful pictures and designs. Users will be able to view photos updated by the admin. Users can see photos based on their categories, by clicking on the listed locations in the menu. They can also copy the link to a photo to paste at their discretion. The search functionality will search photos based on the categories and locations.
 
 ## Set Up and Installations
 
