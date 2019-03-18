@@ -21,6 +21,6 @@ img:hover{
 }
 #row::before{
   content: "";
-  clear: b;
+  clear: both;
   display: table-column-group;
 }
